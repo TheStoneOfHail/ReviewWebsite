@@ -3,5 +3,33 @@ body {
 }
 
 body {
-    color: #1e90ff;
+    color: #60879b;
+}
+
+h1 {
+    color: #314ab4;
+    
+}
+
+
+.banner {
+    background-color: #222
+    background-size: contain
+}
+
+#main-title {
+    font-size: 40px;
+}
+.highlight {
+    color: #1f674f;
+    font-weight: bold;
+}
+.paragraph1 {
+    color: slateblue;
+}
+#general-info{
+    font-style: italic;
+}
+body {
+    font-family: 'Saira', sans-serif;
 }
