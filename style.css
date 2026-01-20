@@ -55,10 +55,39 @@ background-color: #000000
 }
 .navbar {
     text-align: center;
-    width 100%;
+    width: 100%;
 }
-
+/* stuff that doesn't change*/
 .navbutton {
-    background-color: cornsilk;
+    background-color: #5e4aab;
+    border: 2px dashed #444;
+    
+    height: 60px;
+    vertical-align: middle;
+    padding: 10px;
+
 }
 
+/*default - mobile/phone*/
+.navbutton {
+    width:100%;
+    margin:-2px;
+}
+
+/*tablet and up*/
+@media(min-width: 830px){
+    .navbutton{
+    display: inline-block;
+    width: 25%;
+    margin: -2px;
+    }
+}
+
+/*large desktop*/
+@media(min-width: 1200px){
+    .navbutton {
+        display: inline-block;
+        width:150px;
+        margin:10px;
+    }
+}
