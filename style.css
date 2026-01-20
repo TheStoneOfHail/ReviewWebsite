@@ -1,39 +1,54 @@
 body {
-    color: slateblue;
+    color: #ffffff;
 }
 
-h1 {
-    color: #ffffff;  
+h1,h2,h3 
+{
+    color: #cf8aa1;
+    text-align: center
+    font-style: underline; 
 }
 
 
 .banner {
-    background-color: slateblue;
+    background-color: #27008a;
     background-size: contain; 
     background-repeat: no-repeat;
-    border-width: 2px;
+    border-width: 5px;
     border-style: solid;
     border-color: white;
     border-radius: 8px
 }
 
-#main-title {
+#main-title 
+{
     font-size: 36px;
+    font-weight: 400;
+    text-align:center;
+    text-decoration: underline;
 }
-.highlight {
-    color: slateblue;
+.highlight 
+{
+    color: #ffffff;
     font-weight: bold;
 }
-.paragraph1 {
-    color: slateblue;
-}
-#general-info{
+
+
+#general-info
+{
     font-style: italic;
 }
 body {
     font-family: 'Saira', sans-serif;
-background-color: black
+background-color: #000000
 }
 
-.navbar
+.navbar a
+{
+    color: #ffffff
+}
+.navbar a 
+{
+    text-decoration: none
+}
 
