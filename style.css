@@ -1,5 +1,6 @@
 body {
     color: #ffffff;
+    font-size: 16px;
 }
 
 h1,h2,h3 
@@ -14,7 +15,7 @@ h1,h2,h3
     background-color: #27008a;
     background-size: contain; 
     background-repeat: no-repeat;
-    border-width: 5px;
+    border-width: 3px;
     border-style: solid;
     border-color: white;
     border-radius: 8px
@@ -31,6 +32,7 @@ h1,h2,h3
 {
     color: #ffffff;
     font-weight: bold;
+    text-align: center
 }
 
 
