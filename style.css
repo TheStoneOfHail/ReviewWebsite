@@ -1,17 +1,19 @@
 body {
     color: #ffffff;
     font-size: 16px;
+    font-family: "Saira", sans-serif;
+    background-color: #a41717;
 }
 
 h1,
 h2,
 h3 {
-    color: #cf8aa1;
-    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .banner {
-    background-color: #27008a;
+    background-color: #5d42a3;
     background-size: contain;
     background-repeat: no-repeat;
     border-width: 3px;
@@ -33,17 +35,11 @@ h3 {
 }
 
 #general-info {
-    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto;
 }
-body {
-    font-family: "Saira", sans-serif;
-    background-color: #000000;
-}
-
 .navbar a {
     color: #ffffff;
-}
-.navbar a {
     text-decoration: none;
 }
 .navbar {
@@ -52,8 +48,8 @@ body {
 }
 /* stuff that doesn't change*/
 .navbutton {
-    background-color: #5e4aab;
-    border: 2px dashed #444;
+    background-color: #322c46;
+    border: 2px dashed #c49898;
 
     height: 60px;
     vertical-align: middle;
@@ -64,6 +60,9 @@ body {
 .navbutton {
     width: 100%;
     margin: -2px;
+}
+.navbutton:hover {
+    background-color: #bcacff;
 }
 
 /*tablet and up*/
@@ -84,3 +83,9 @@ body {
     }
 }
 
+iframe,
+video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
