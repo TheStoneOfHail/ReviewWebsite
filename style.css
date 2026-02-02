@@ -4,12 +4,27 @@ body {
     font-family: "Saira", sans-serif;
     background-color: #a41717;
 }
-
 h1,
 h2,
 h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    text-align: center;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+#general-info p {
+    text-align: left;
+}
+
+ol {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+table.center {
+    margin: 20px auto;
 }
 
 .banner {
@@ -28,16 +43,7 @@ h3 {
     text-align: center;
     text-decoration: underline;
 }
-.highlight {
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-}
 
-#general-info {
-    max-width: 800px;
-    margin: 0 auto;
-}
 .navbar a {
     color: #ffffff;
     text-decoration: none;
