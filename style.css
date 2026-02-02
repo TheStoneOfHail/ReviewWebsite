@@ -91,3 +91,14 @@ iframe {
     aspect-ratio: 16 / 9;
     border: none;
 }
+.video-wrapper {
+    width: 100%;
+    max-width: 800px; /* optional */
+    margin: 0 auto;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
