@@ -43,41 +43,37 @@ h3 {
     text-decoration: none;
 }
 .navbar {
-    text-align: center;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 /* stuff that doesn't change*/
 .navbutton {
     background-color: #322c46;
     border: 2px dashed #c49898;
-
     height: 60px;
-    vertical-align: middle;
     padding: 10px;
 }
 
-/*default - mobile/phone*/
+/* mobile */
 .navbutton {
     width: 100%;
-    margin: -2px;
 }
+
 .navbutton:hover {
     background-color: #bcacff;
 }
 
-/*tablet and up*/
+/* tablet */
 @media (min-width: 830px) {
     .navbutton {
-        display: inline-block;
         width: 25%;
-        margin: -2px;
     }
 }
 
-/*large desktop*/
+/* large desktop */
 @media (min-width: 1200px) {
     .navbutton {
-        display: inline-block;
         width: 150px;
         margin: 10px;
     }
