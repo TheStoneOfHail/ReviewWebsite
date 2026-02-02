@@ -1,57 +1,50 @@
 body {
-
     color: #ffffff;
     font-size: 16px;
 }
 
-h1,h2,h3 
-{
+h1,
+h2,
+h3 {
     color: #cf8aa1;
-    text-align: center
+    text-align: center;
 }
-
 
 .banner {
     background-color: #27008a;
-    background-size: contain; 
+    background-size: contain;
     background-repeat: no-repeat;
     border-width: 3px;
     border-style: solid;
     border-color: white;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
-#main-title 
-{
+#main-title {
     font-size: 36px;
     font-weight: 400;
-    text-align:center;
+    text-align: center;
     text-decoration: underline;
 }
-.highlight 
-{
+.highlight {
     color: #ffffff;
     font-weight: bold;
-    text-align: center
+    text-align: center;
 }
 
-
-#general-info
-{
+#general-info {
     font-style: italic;
 }
 body {
-    font-family: 'Saira', sans-serif;
-background-color: #000000
+    font-family: "Saira", sans-serif;
+    background-color: #000000;
 }
 
-.navbar a
-{
-    color: #ffffff
+.navbar a {
+    color: #ffffff;
 }
-.navbar a
-{
-    text-decoration: none
+.navbar a {
+    text-decoration: none;
 }
 .navbar {
     text-align: center;
@@ -61,33 +54,38 @@ background-color: #000000
 .navbutton {
     background-color: #5e4aab;
     border: 2px dashed #444;
-    
+
     height: 60px;
     vertical-align: middle;
     padding: 10px;
-
 }
 
 /*default - mobile/phone*/
 .navbutton {
-    width:100%;
-    margin:-2px;
+    width: 100%;
+    margin: -2px;
 }
 
 /*tablet and up*/
-@media(min-width: 830px){
-    .navbutton{
-    display: inline-block;
-    width: 25%;
-    margin: -2px;
+@media (min-width: 830px) {
+    .navbutton {
+        display: inline-block;
+        width: 25%;
+        margin: -2px;
     }
 }
 
 /*large desktop*/
-@media(min-width: 1200px){
+@media (min-width: 1200px) {
     .navbutton {
         display: inline-block;
-        width:150px;
-        margin:10px;
+        width: 150px;
+        margin: 10px;
     }
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
 }
